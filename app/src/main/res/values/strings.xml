@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">StudyApp</string>
+    <string name="app_name">FlashcardStudyApp</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="Create_Principle_Name">Name the Topic:</string>
+    <string name="Create_Principle_Description">Verbally Describe the Topic:</string>
+    <string name="Create_Principle_Formula">Assign a formula:</string>
 </resources>
