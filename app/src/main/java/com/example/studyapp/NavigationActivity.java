@@ -15,8 +15,8 @@ public class NavigationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
-        Button PrinciplesListButton = (Button) findViewById(R.id.principlesListButton);
-        PrinciplesListButton.setOnClickListener(new View.OnClickListener(){
+        Button principlesListButton = (Button) findViewById(R.id.principlesListButton);
+        principlesListButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent GoToPrinciplesList = new Intent(getApplicationContext(), ListActivity.class);
