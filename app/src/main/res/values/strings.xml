@@ -6,4 +6,9 @@
     <string name="Create_Principle_Name">Name the Topic:</string>
     <string name="Create_Principle_Description">Verbally Describe the Topic:</string>
     <string name="Create_Principle_Formula">Assign a formula:</string>
+    <string name="Describe_Principle">Describe The Fundamental Principle:</string>
+    <string name="Principles_List">Principles List</string>
+    <string name="Add_Principles">Add Principles</string>
+    <string name="Study">Study</string>
+    <string name="Continue">Continue</string>
 </resources>

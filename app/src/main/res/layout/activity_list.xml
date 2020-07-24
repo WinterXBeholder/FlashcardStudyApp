@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <Button
+        android:id="@+id/deleteButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete?"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/deleteButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete?"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/PrinciplesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principles:"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/tagLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags:"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Switch
+        android:id="@+id/tagSwitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fluids"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Switch
+        android:id="@+id/tagSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circuits"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Switch
+        android:id="@+id/principleSwitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirchoff's Voltage Law"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Switch
+        android:id="@+id/principleSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure Fluid Height"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/deleteButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete?"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/deleteButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete?"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="111dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

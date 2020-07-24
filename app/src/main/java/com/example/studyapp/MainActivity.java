@@ -1,5 +1,6 @@
 package com.example.studyapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button SubmitPrinciple = (Button) findViewById(R.id.SubmitPrinciple)
+        Button SubmitPrinciple = (Button) findViewById(R.id.SubmitPrinciple);
         SubmitPrinciple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 String PrincipleDescription = PrincipleDescriptionEntry.getText().toString();
                 String PrincipleFormula = PrincipleFormulaEntry.getText().toString();
 
+            }
+        });
+
+        Button cancelButton = (Button) findViewById(R.id.cancelButton);
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GoToNavigation = new Intent(getApplicationContext(),NavigationActivity.class);
+                startActivity(GoToNavigation);
             }
         });
 

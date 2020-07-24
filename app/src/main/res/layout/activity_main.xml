@@ -57,6 +57,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PrincipleFormulaEntry" />
 
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SubmitPrinciple"
+        app:layout_constraintVertical_bias="0.711" />
+
     <EditText
         android:id="@+id/PrincipleDescriptionEntry"
         android:layout_width="match_parent"
