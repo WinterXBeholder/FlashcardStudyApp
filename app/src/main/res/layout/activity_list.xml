@@ -11,16 +11,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete?"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/principleSwitch1" />
 
     <Button
         android:id="@+id/deleteButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete?"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="362dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/principleSwitch2" />
 
     <Button
         android:id="@+id/homeButton"
@@ -36,62 +40,88 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Principles:"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/tagLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tags:"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
         android:id="@+id/tagSwitch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fluids"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="77dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014" />
 
     <Switch
         android:id="@+id/tagSwitch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Circuits"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="119dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
 
     <Switch
         android:id="@+id/principleSwitch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kirchoff's Voltage Law"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
 
     <Switch
         android:id="@+id/principleSwitch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pressure Fluid Height"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="377dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
 
     <Button
         android:id="@+id/deleteButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete?"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="70dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tagSwitch1" />
 
     <Button
         android:id="@+id/deleteButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete?"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="111dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tagSwitch2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

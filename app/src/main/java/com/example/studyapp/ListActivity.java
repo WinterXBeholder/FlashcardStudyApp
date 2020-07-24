@@ -22,6 +22,5 @@ public class ListActivity extends AppCompatActivity {
                 startActivity(GoToHome);
             }
         });
-
     }
 }

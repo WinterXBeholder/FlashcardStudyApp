@@ -1,6 +1,5 @@
 package com.example.studyapp;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +17,7 @@ public class NavigationActivity extends AppCompatActivity {
         Button principlesListButton = (Button) findViewById(R.id.principlesListButton);
         principlesListButton.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent GoToPrinciplesList = new Intent(getApplicationContext(), ListActivity.class);
                 startActivity(GoToPrinciplesList);
             }
